@@ -40,7 +40,7 @@
         "has_social": true,
         "social_links": [
             {
-                "label": "Twitter",
+                "label": "me",
                 "url": "https://twitter.com/",
                 "style": "icon",
                 "icon": "twitter",
