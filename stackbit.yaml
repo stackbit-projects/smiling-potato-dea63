@@ -58,7 +58,7 @@ models:
         options:
           - open-sans
           - fraunces
-          - karla
+          - open-sans
           - system-sans
         default: fraunces
         required: true
