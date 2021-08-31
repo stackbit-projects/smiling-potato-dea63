@@ -70,7 +70,7 @@
             {
                 "label": "chua",
                 "url": "apple.com",
-                "style": "icon",
+                "style": "button",
                 "icon": "vimeo",
                 "new_window": false,
                 "no_follow": false,
