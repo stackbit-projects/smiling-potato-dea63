@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
                 <div className="site-footer__inside">
                   <div className="site-footer__info">
                     {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <span className="site-footer__copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))}</span>
+                    <span className="site-footer__copright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))}</span>
                     )}
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
                       <ActionLink key={action_idx} {...this.props} action={action} />
